@@ -56,9 +56,45 @@ code {
   width: 100px;
   height: 100px;
   margin-left: 28%;
-  margin-top: 24.5%;
+  margin-top: 24%;
   background: #cccccc;
   position: absolute;
 
   border-radius: 100%;
 }
+img{
+  width: 22px;
+  position: absolute;
+  color: gray;
+}
+.fwd{
+  width: 22px;
+  position: absolute;
+  top: 108px;
+  left: 200px;
+  color: gray;
+}
+.rewind{
+  width: 22px;
+  position: absolute;
+  color: gray;
+  top: 108px;
+  left: 30px;
+}
+.play-pause{
+  width: 22px;
+  position: absolute;
+  color: gray;
+  top: 190px;
+  left: 120px;
+}
+.menu-btn{
+  top: 30px;
+  left: 108px;
+  position: absolute;
+  font-family: arial;
+  font-weight: bold;
+  color: gray;
+}
+
+

@@ -11,3 +11,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.ipod{
+  width:24%; 
+  height:500px;
+  margin:auto;
+  margin-top: 3%;
+  border: 1px solid black;
+  background: #cccccc;
+  border-radius: 30px;
+}
+.screen{
+  height:47%;
+  border: 1px solid black;
+  margin:3%;
+  border-radius: 8px;
+  background-color: rgb(66, 62, 62);
+}
+.buttons{
+  height:50%;
+}
+
+.buttons-container{
+  width:80%;
+  height:94%;
+  margin:auto;
+  /* border: 1px solid black; */
+  /* background: rgb(128, 68, 68); */
+  overflow: hidden;
+  position: relative;
+}
+
+.inner-div{
+  width: 95%;
+  height:95%;
+  background: #f0e7e7;
+  margin: 5px auto;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+ 
+.inner-circle{
+  width: 100px;
+  height: 100px;
+  margin-left: 28%;
+  margin-top: 24.5%;
+  background: #cccccc;
+  position: absolute;
+
+  border-radius: 100%;
+}

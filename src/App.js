@@ -35,14 +35,19 @@ class App extends React.Component {
               selectedoption:this.selected
             })
             this.change_in_angle = 0;
-          }else if(this.change_in_angle>-60)
+          }else if(this.change_in_angle<-60)
            {
-            // this.temp_selected--;
-            // console.log(this.temp_selected)
-            // this.temp_selected = this.temp_selected % this.state.options.length;
-            // console.log(this.temp_selected)
-
-            // this.temp_change_in_angle = 0;
+            this.selected--;
+            console.log('else if',this.selected)
+            if(this.selected === -1)
+            {
+              this.selected = this.state.options.length -1
+            }
+            console.log('corrected',this.selected)
+            this.setState({
+              selectedoption:this.selected
+            })
+            this.change_in_angle = 0;
            }
       }
     })

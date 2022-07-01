@@ -20,13 +20,15 @@ code {
   border: 1px solid black;
   background: #b4b4b4;
   border-radius: 30px;
-}
+  }
 .screen{
   height:47%;
   border: 2px solid black;
   margin:3%;
   border-radius: 8px;
   background-color: rgb(99, 88, 88);
+  background-image: url('https://cdn.pixabay.com/photo/2015/01/09/11/11/office-594132_960_720.jpg');
+
 }
 .buttons{
   height:50%;

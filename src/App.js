@@ -13,9 +13,10 @@ class App extends React.Component {
     this.selected = 0;
     this.state ={
       options:['coverflow','music','games','settings'],
-      initialscreen:true,
+      initialscreen:false,
       selectedoption:0,
-      showoption:-1
+      showoption:-1,
+      homescreen:true
     }
   }
 
@@ -67,15 +68,21 @@ class App extends React.Component {
   
   menuClicked =()=>{
     console.log('upss')
-    if(this.state.initialscreen===true){
+    if(this.state.homescreen===true){
+      this.setState({
+        initialscreen:true,
+        homescreen:false
+      })
+    }else if(this.state.homescreen===false && this.state.initialscreen===true){
       this.setState({
         initialscreen:false
       })
-    }
-    this.setState({
-      initialscreen:true,
-      showoption:-1
-    })
+    }else{
+      this.setState({
+        initialscreen:true,
+        showoption:-1
+      })
+    }    
   }
 
   render() {

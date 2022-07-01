@@ -1,1 +1,23 @@
+.screen-menu{
+    width:50%;
+    height:100%;
+    background-color: rgb(221, 235, 248);
+    overflow: hidden;
+    border-radius: 5px;
+}
 
+.selected-menu-item{
+    height:30px;
+    background-color:aqua;
+    margin-bottom: 4px;
+    padding-left:5px;
+    /* border: 1px solid black; */
+    display:flex;
+    justify-content: space-between;
+}
+.normal-menu-item{
+    height:30px;
+    margin-bottom: 4px;
+    padding-left: 5px;
+    /* border: 1px solid black; */
+}
